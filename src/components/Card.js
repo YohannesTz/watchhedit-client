@@ -5,7 +5,7 @@ const AppCard = () => {
     return (
         <Card style={{ width: '18rem' }} className="card-app" >
             <Card.Img variant="top" src={process.env.PUBLIC_URL + '/image/icon-logo.png'} width="200"
-                height="150" />
+                height="200" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
