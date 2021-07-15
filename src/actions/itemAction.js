@@ -157,7 +157,7 @@ export const getUrl = (itemtype) => {
         case itemTypes.ANIME:
             return "/api/v1/anime"
         case itemTypes.BOOK:
-            return "/api/v1/book"
+            return "/api/v1/books"
 
         default:
             return "/api/v1/movies"
