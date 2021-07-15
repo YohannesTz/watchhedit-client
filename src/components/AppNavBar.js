@@ -1,6 +1,6 @@
-import { Component } from 'react';
+import React from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
-class AppNavBar extends Component {
+class AppNavBar extends React.Component {
     render() {
         return (
             <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
