@@ -3,8 +3,6 @@ import React from 'react'
 import AppNavBar from './components/AppNavBar';
 import { Provider } from 'react-redux';
 import store from './stores';
-import Book from './pages/book';
-import Anime from './pages/anime';
 import {Auth} from './pages/auth';
 
 import itemTypes from './actions/types'
