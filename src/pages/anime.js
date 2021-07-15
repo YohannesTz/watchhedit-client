@@ -1,6 +1,6 @@
-import { Component } from "react";
+import React from "react";
 
-class Anime extends Component {
+class Anime extends React.Component {
     render(){
         return(<div> The Anime COmponenet</div>);
     }
